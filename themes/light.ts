@@ -1,0 +1,15 @@
+export const lightTheme = {
+  id: 'light',
+  name: 'Light',
+  background: '#F5F5F5',
+  surface: '#FFFFFF',
+  text: '#0A0A0A',
+  subtext: '#666666',
+  accent: '#0099BB',
+  purple: '#7C3AED',
+  gain: '#16A34A',
+  loss: '#DC2626',
+  border: '#E0E0E0',
+  candlePositive: '#16A34A',
+  candleNegative: '#DC2626',
+};

@@ -1,0 +1,15 @@
+export const darkTheme = {
+  id: 'dark',
+  name: 'Dark',
+  background: '#0A0A0A',
+  surface: '#141414',
+  text: '#FFFFFF',
+  subtext: '#888888',
+  accent: '#00E5FF',
+  purple: '#A855F7',
+  gain: '#22C55E',
+  loss: '#EF4444',
+  border: '#222222',
+  candlePositive: '#00E5FF',
+  candleNegative: '#EF4444',
+};
