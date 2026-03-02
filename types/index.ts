@@ -31,4 +31,4 @@ export const BUY_AMOUNTS: BuyAmount[] = [5000, 10000, 20000];
 
 export const STARTING_CASH = 100000;
 
-export const TICK_INTERVAL_MS = 5000;
+export const TICK_INTERVAL_MS = 3000;

@@ -10,3 +10,4 @@ web-build/
 *.orig.*
 web-build/
 .env
+!assets/data/sample-candles.json

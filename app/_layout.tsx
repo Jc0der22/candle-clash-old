@@ -5,16 +5,10 @@ import { ThemeProvider, useTheme } from '../context/ThemeContext';
 function RootStack() {
   const { theme } = useTheme();
   return (
-    <Stack
-      screenOptions={{
-        headerShown: false,
-        contentStyle: { backgroundColor: theme.background },
-      }}
-    >
-      <Stack.Screen name="index" />
-      <Stack.Screen name="game" />
-      <Stack.Screen name="results" />
-    </Stack>
+    <Stack screenOptions={{
+      headerShown: false,
+      contentStyle: { backgroundColor: theme.background }
+    }} />
   );
 }
 
